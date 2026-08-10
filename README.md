@@ -1,43 +1,31 @@
-📰 Portal de Notícias ETEC
-O Portal de Notícias ETEC é um projeto web responsivo e semântico desenvolvido como parte das práticas da disciplina de Programação Web 1. O portal apresenta notícias em destaque, uma barra lateral com os artigos mais lidos e um formulário de inscrição para newsletter.
+# 📰 Portal de Notícias ETEC
 
-🚀 Tecnologias Utilizadas
-HTML5: Estruturação semântica da página (<header>, <nav>, <main>, <article>, <aside>, <section>, <footer>).
+> **Disciplina:** Programação Web 1  
+> **Tecnologias:** HTML5, CSS3 (Flexbox & CSS Grid)
 
-CSS3: Estilização moderna utilizando Flexbox para o menu de navegação/formulários e CSS Grid para o layout da grade de notícias.
+---
 
-CSS Responsivo: Uso de Media Queries e a técnica Checkbox Hack para a criação de um menu hambúrguer interativo sem a necessidade de JavaScript.
+## 📄 Sobre o Projeto
 
-💻 Funcionalidades do Projeto
-Navegação Sticky: Cabeçalho fixo no topo da página ao rolar a tela.
+O **Portal de Notícias ETEC** é uma aplicação front-end responsiva desenvolvida como projeto prático na disciplina de Programação Web 1. 
 
-Menu Hambúrguer Responsivo: Menu dinâmico para dispositivos móveis operado exclusivamente via CSS puro.
+O objetivo principal do projeto é aplicar conceitos avançados de estruturação semântica, diagramação moderna com **CSS Grid** e **Flexbox**, além de implementar interatividade responsiva para dispositivos móveis sem a necessidade de scripts em JavaScript.
 
-Grid de Notícias Adaptável:
+---
 
-Card de destaque principal ocupando maior espaço na tela.
+## 🛠️ Tecnologias e Conceitos Utilizados
 
-Cards secundários para notícias de categorias variadas.
+- **HTML5 Semântico:** Uso correto de tags como `<header>`, `<nav>`, `<main>`, `<article>`, `<aside>` e `<footer>`.
+- **CSS Grid:** Utilizado na grade principal do portal para organizar os cards de notícias e a barra lateral de conteúdos populares.
+- **Flexbox:** Utilizado no cabeçalho e na estrutura dos formulários para alinhamento alinhado e responsivo.
+- **Menu Hambúrguer 100% CSS:** Implementado via *Checkbox Hack* (`:checked ~ .links-menu`) para alternar a visibilidade do menu mobile sem JavaScript.
 
-Barra lateral com os artigos mais lidos.
+---
 
-Seção de Newsletter: Formulário estilizado e responsivo para captura de e-mails.
+## 📁 Estrutura de Arquivos
 
-Layout Responsivo: Transição fluida de visualização em 3 colunas no desktop para 1 coluna em telas de até 768px.
-
-📂 Estrutura de Arquivos
-Plaintext
+```text
 .
-├── index.html   # Estrutura HTML do portal de notícias
-├── style.css    # Regras de estilo, layout (Grid/Flexbox) e mídia responsiva
-├── LICENSE.md   # Licença do projeto
-└── README.md    # Documentação do projeto
-🔧 Como Executar o Projeto
-Faça o download ou clone este repositório para o seu computador.
-
-Certifique-se de que os arquivos index.html e style.css estejam na mesma pasta.
-
-Abra o arquivo index.html em qualquer navegador web (Google Chrome, Mozilla Firefox, Microsoft Edge, etc.).
-
-📑 Licença e Créditos
-Este projeto foi desenvolvido para fins educacionais na disciplina de Programação Web 1.
+├── index.html     # Estrutura principal do portal
+├── style.css      # Estilização, regras de layout e media queries
+└── README.md      # Documentação do repositório
